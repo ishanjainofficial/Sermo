@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86006B2124019F5A004DAE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86006B2024019F5A004DAE1B /* AppDelegate.swift */; };
+		86006B2324019F5A004DAE1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86006B2224019F5A004DAE1B /* SceneDelegate.swift */; };
+		86006B2524019F5A004DAE1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86006B2424019F5A004DAE1B /* ViewController.swift */; };
+		86006B2824019F5A004DAE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86006B2624019F5A004DAE1B /* Main.storyboard */; };
+		86006B2A24019F5C004DAE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86006B2924019F5C004DAE1B /* Assets.xcassets */; };
+		86006B2D24019F5C004DAE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86006B2B24019F5C004DAE1B /* LaunchScreen.storyboard */; };
+		864F1BE3240AE4D200E9B5B9 /* Braille.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F1BE2240AE4D200E9B5B9 /* Braille.swift */; };
+		86959EDE2401E6DC00E648C2 /* ASLPredictor.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 86959EDD2401E6DC00E648C2 /* ASLPredictor.mlmodel */; };
+		86959EE02401F36600E648C2 /* ASL MODEL 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 86959EDF2401F36600E648C2 /* ASL MODEL 1.mlmodel */; };
+		86959EE22401F62200E648C2 /* ImageResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86959EE12401F62200E648C2 /* ImageResize.swift */; };
+		86D00CFF2401BD09002C16FE /* OutputLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D00CFE2401BD09002C16FE /* OutputLanguage.swift */; };
+		D6275A62DE8B16E45C06B085 /* Pods_Sermo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5987D33FE1314C0B5708D73 /* Pods_Sermo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01854CEDE6BB76A55DE7BE35 /* Pods-Sermo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sermo.release.xcconfig"; path = "Target Support Files/Pods-Sermo/Pods-Sermo.release.xcconfig"; sourceTree = "<group>"; };
+		667163D1CD450AA353863C8F /* Pods-Sermo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sermo.debug.xcconfig"; path = "Target Support Files/Pods-Sermo/Pods-Sermo.debug.xcconfig"; sourceTree = "<group>"; };
+		86006B1D24019F5A004DAE1B /* Sermo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sermo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86006B2024019F5A004DAE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86006B2224019F5A004DAE1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86006B2424019F5A004DAE1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86006B2724019F5A004DAE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86006B2924019F5C004DAE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86006B2C24019F5C004DAE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86006B2E24019F5C004DAE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864F1BE2240AE4D200E9B5B9 /* Braille.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Braille.swift; sourceTree = "<group>"; };
+		86959EDD2401E6DC00E648C2 /* ASLPredictor.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ASLPredictor.mlmodel; sourceTree = "<group>"; };
+		86959EDF2401F36600E648C2 /* ASL MODEL 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ASL MODEL 1.mlmodel"; sourceTree = "<group>"; };
+		86959EE12401F62200E648C2 /* ImageResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResize.swift; sourceTree = "<group>"; };
+		86D00CFE2401BD09002C16FE /* OutputLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputLanguage.swift; sourceTree = "<group>"; };
+		D5987D33FE1314C0B5708D73 /* Pods_Sermo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sermo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86006B1A24019F59004DAE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6275A62DE8B16E45C06B085 /* Pods_Sermo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41D92A9D274CC1E8DFD74F32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				667163D1CD450AA353863C8F /* Pods-Sermo.debug.xcconfig */,
+				01854CEDE6BB76A55DE7BE35 /* Pods-Sermo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		86006B1424019F59004DAE1B = {
+			isa = PBXGroup;
+			children = (
+				86006B1F24019F5A004DAE1B /* Sermo */,
+				86006B1E24019F5A004DAE1B /* Products */,
+				41D92A9D274CC1E8DFD74F32 /* Pods */,
+				A2436AC2854F73252EB4BEAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86006B1E24019F5A004DAE1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86006B1D24019F5A004DAE1B /* Sermo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86006B1F24019F5A004DAE1B /* Sermo */ = {
+			isa = PBXGroup;
+			children = (
+				86006B2024019F5A004DAE1B /* AppDelegate.swift */,
+				86006B2224019F5A004DAE1B /* SceneDelegate.swift */,
+				86959EE12401F62200E648C2 /* ImageResize.swift */,
+				86006B2424019F5A004DAE1B /* ViewController.swift */,
+				86D00CFE2401BD09002C16FE /* OutputLanguage.swift */,
+				864F1BE2240AE4D200E9B5B9 /* Braille.swift */,
+				86006B2624019F5A004DAE1B /* Main.storyboard */,
+				86006B2924019F5C004DAE1B /* Assets.xcassets */,
+				86006B2B24019F5C004DAE1B /* LaunchScreen.storyboard */,
+				86959EDF2401F36600E648C2 /* ASL MODEL 1.mlmodel */,
+				86959EDD2401E6DC00E648C2 /* ASLPredictor.mlmodel */,
+				86006B2E24019F5C004DAE1B /* Info.plist */,
+			);
+			path = Sermo;
+			sourceTree = "<group>";
+		};
+		A2436AC2854F73252EB4BEAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5987D33FE1314C0B5708D73 /* Pods_Sermo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86006B1C24019F59004DAE1B /* Sermo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86006B3124019F5C004DAE1B /* Build configuration list for PBXNativeTarget "Sermo" */;
+			buildPhases = (
+				2FD5AC1C710C7C8B00FFBDB4 /* [CP] Check Pods Manifest.lock */,
+				86006B1924019F59004DAE1B /* Sources */,
+				86006B1A24019F59004DAE1B /* Frameworks */,
+				86006B1B24019F59004DAE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sermo;
+			productName = Sermo;
+			productReference = 86006B1D24019F5A004DAE1B /* Sermo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86006B1524019F59004DAE1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ishan Jain";
+				TargetAttributes = {
+					86006B1C24019F59004DAE1B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 86006B1824019F59004DAE1B /* Build configuration list for PBXProject "Sermo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86006B1424019F59004DAE1B;
+			productRefGroup = 86006B1E24019F5A004DAE1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86006B1C24019F59004DAE1B /* Sermo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86006B1B24019F59004DAE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86006B2D24019F5C004DAE1B /* LaunchScreen.storyboard in Resources */,
+				86006B2A24019F5C004DAE1B /* Assets.xcassets in Resources */,
+				86006B2824019F5A004DAE1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FD5AC1C710C7C8B00FFBDB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sermo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86006B1924019F59004DAE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86959EDE2401E6DC00E648C2 /* ASLPredictor.mlmodel in Sources */,
+				86959EE22401F62200E648C2 /* ImageResize.swift in Sources */,
+				86D00CFF2401BD09002C16FE /* OutputLanguage.swift in Sources */,
+				864F1BE3240AE4D200E9B5B9 /* Braille.swift in Sources */,
+				86006B2524019F5A004DAE1B /* ViewController.swift in Sources */,
+				86959EE02401F36600E648C2 /* ASL MODEL 1.mlmodel in Sources */,
+				86006B2124019F5A004DAE1B /* AppDelegate.swift in Sources */,
+				86006B2324019F5A004DAE1B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86006B2624019F5A004DAE1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86006B2724019F5A004DAE1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86006B2B24019F5C004DAE1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86006B2C24019F5C004DAE1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86006B2F24019F5C004DAE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86006B3024019F5C004DAE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86006B3224019F5C004DAE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667163D1CD450AA353863C8F /* Pods-Sermo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6N8V32LHK;
+				INFOPLIST_FILE = Sermo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tech.Sermoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		86006B3324019F5C004DAE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01854CEDE6BB76A55DE7BE35 /* Pods-Sermo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6N8V32LHK;
+				INFOPLIST_FILE = Sermo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishan.Sermo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86006B1824019F59004DAE1B /* Build configuration list for PBXProject "Sermo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86006B2F24019F5C004DAE1B /* Debug */,
+				86006B3024019F5C004DAE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86006B3124019F5C004DAE1B /* Build configuration list for PBXNativeTarget "Sermo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86006B3224019F5C004DAE1B /* Debug */,
+				86006B3324019F5C004DAE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86006B1524019F59004DAE1B /* Project object */;
+}
